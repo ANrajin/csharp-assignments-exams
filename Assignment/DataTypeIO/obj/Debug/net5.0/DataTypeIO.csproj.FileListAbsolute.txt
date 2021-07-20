@@ -1,0 +1,16 @@
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\DataTypeIO.exe
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\DataTypeIO.deps.json
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\DataTypeIO.runtimeconfig.json
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\DataTypeIO.runtimeconfig.dev.json
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\DataTypeIO.dll
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\ref\DataTypeIO.dll
+E:\csharp-b8\Assignment\DataTypeIO\bin\Debug\net5.0\DataTypeIO.pdb
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.csproj.AssemblyReference.cache
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.AssemblyInfoInputs.cache
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.AssemblyInfo.cs
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.csproj.CoreCompileInputs.cache
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.dll
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\ref\DataTypeIO.dll
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.pdb
+E:\csharp-b8\Assignment\DataTypeIO\obj\Debug\net5.0\DataTypeIO.genruntimeconfig.cache
