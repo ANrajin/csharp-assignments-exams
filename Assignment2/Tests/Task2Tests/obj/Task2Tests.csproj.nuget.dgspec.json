@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj": {}
+    "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj": {}
   },
   "projects": {
-    "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj": {
+    "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj",
+        "projectUniqueName": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj",
         "projectName": "Task2",
-        "projectPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj",
+        "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task2\\obj\\",
+        "outputPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj": {
+    "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj",
+        "projectUniqueName": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj",
         "projectName": "Task2Tests",
-        "projectPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj",
+        "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task2Tests\\obj\\",
+        "outputPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task2Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj": {
-                "projectPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj"
+              "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj": {
+                "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task2\\Task2.csproj"
               }
             }
           }

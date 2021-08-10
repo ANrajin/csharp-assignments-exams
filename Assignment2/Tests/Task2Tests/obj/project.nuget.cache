@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nWktc4zlA/iQ4g3zRFZUCQbhle12oCyJU6u3KoM8sGnwYpxiOZ4OKn/pDib69gVwKPNeHr+OilfU4/sD5pfiLg==",
+  "dgSpecHash": "Xm/9OOlCBAA5bRiOUuRj8L/hQEIADyK2sgItsMzh1qx2JdS1xsz6Ol6XHNHm0yQzhVneO92/S0lnISK7kmhlhw==",
   "success": true,
-  "projectFilePath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj",
+  "projectFilePath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task2Tests\\Task2Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task1\\Task1.csproj",
+      "projectUniqueName": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task1\\Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task1\\Task1.csproj",
+      "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task1\\Task1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task1\\obj\\",
+      "outputPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -4596,11 +4596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task3Tests\\Task3Tests.csproj",
+      "projectUniqueName": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task3Tests\\Task3Tests.csproj",
       "projectName": "Task3Tests",
-      "projectPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task3Tests\\Task3Tests.csproj",
+      "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task3Tests\\Task3Tests.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tests\\Task3Tests\\obj\\",
+      "outputPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tests\\Task3Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4620,8 +4620,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj": {
-              "projectPath": "E:\\1.Class-Works\\csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj"
+            "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj": {
+              "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment2\\Tasks\\Task3\\Task3.csproj"
             }
           }
         }
