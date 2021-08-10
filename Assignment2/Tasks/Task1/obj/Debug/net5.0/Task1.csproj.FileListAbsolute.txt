@@ -1,0 +1,16 @@
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\Task1.exe
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\Task1.deps.json
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\Task1.runtimeconfig.json
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\Task1.runtimeconfig.dev.json
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\Task1.dll
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\ref\Task1.dll
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\bin\Debug\net5.0\Task1.pdb
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.csproj.AssemblyReference.cache
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.AssemblyInfoInputs.cache
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.AssemblyInfo.cs
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.csproj.CoreCompileInputs.cache
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.dll
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\ref\Task1.dll
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.pdb
+E:\1.Class-Works\csharp-b8\Assignment2\Tasks\Task1\obj\Debug\net5.0\Task1.genruntimeconfig.cache
