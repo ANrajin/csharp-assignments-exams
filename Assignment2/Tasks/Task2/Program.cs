@@ -12,7 +12,14 @@ namespace Task2
 
         public static int StringValue(string aText)
         {
-            throw new NotImplementedException();
+            var result = 0;
+
+            for (var i = 0; i < aText.Length; i++)
+            {
+                result += Convert.ToInt32(aText[i]);
+            }
+
+            return result;
         }
     }
 }
