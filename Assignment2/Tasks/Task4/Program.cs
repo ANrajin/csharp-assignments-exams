@@ -26,7 +26,7 @@ namespace Task4
                 }
 
                 if (binaryNumber[i] == '1')
-                    result += 1 * num;
+                    result += num;
             }
 
             return result;
