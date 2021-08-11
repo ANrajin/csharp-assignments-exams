@@ -12,7 +12,24 @@ namespace Task4
 
         public static int BinaryToDecimal(string binaryNumber)
         {
-            throw new NotImplementedException();
+            int[] arr = new int[binaryNumber.Length];
+
+            int result = 0;
+
+            for (var i = 0; i < binaryNumber.Length; i++)
+            {
+                var num = 1;
+
+                for (var j = (binaryNumber.Length - 1); j > i; j--)
+                {
+                    num *= 2;
+                }
+
+                if (binaryNumber[i] == '1')
+                    result += 1 * num;
+            }
+
+            return result;
         }
     }
 }
