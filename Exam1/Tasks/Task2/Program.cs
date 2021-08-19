@@ -6,19 +6,60 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            //var result = Rotate("aaabbcc", 2);
-            //Console.WriteLine(result);
+            var result = Rotate("aaabbcc", 2);
+            Console.WriteLine(result);
+
+            //var str = "aaabbcc";
+            //var strLen = str.Length - 1;
+
+            //var newStr = str.Remove(strLen);
+
+            //Console.WriteLine(newStr.Remove(strLen-1));
 
             var str = "aaabbcc";
 
-            var 
+            var totalLen = str.Length;
 
-            Console.WriteLine(str.Remove(str.Length-1));
+            var Len = totalLen - 1;
+
+            char lastChar = '0';
+
+            string result = string.Empty;
+
+            for (var i = 0; i < 2; i++)
+            {
+                lastChar = str[Len];
+
+                str.Remove(Len);
+
+                result = str.PadLeft(totalLen, lastChar);
+            }
+
+            Console.WriteLine(result);
         }
 
         public static string Rotate(string original, int count)
         {
-            throw new NotImplementedException();
+            var str = original;
+
+            var totalLen = original.Length;
+
+            var Len = totalLen - 1;
+
+            char lastChar = '0';
+
+            string result = string.Empty;
+
+            for(var i = 0; i < count; i++)
+            {
+                lastChar = str[Len];
+
+                str.Remove(Len);
+
+                result = str.PadLeft(totalLen, lastChar);
+            }
+
+            return result;
         }
     }
 }
