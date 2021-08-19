@@ -16,26 +16,30 @@ namespace Task2
 
             //Console.WriteLine(newStr.Remove(strLen-1));
 
-            var str = "aaabbcc";
+            //var str = "aaabbcc";
 
-            var totalLen = str.Length;
+            //var totalLen = str.Length;
 
-            var Len = totalLen - 1;
+            //var Len = totalLen - 1;
 
-            char lastChar = '0';
+            //char lastChar = '0';
 
-            string result = string.Empty;
+            //string result = string.Empty;
 
-            for (var i = 0; i < 2; i++)
-            {
-                lastChar = str[Len];
+            //var newStr = string.Empty;
 
-                str.Remove(Len);
+            //for (var i = 0; i < 2; i++)
+            //{
+            //    lastChar = str[Len];
 
-                result = str.PadLeft(totalLen, lastChar);
-            }
+            //    newStr = str.Remove(Len);
 
-            Console.WriteLine(result);
+            //    result = newStr.PadLeft(totalLen, lastChar);
+            //}
+
+            //Console.WriteLine(result);
+
+
         }
 
         public static string Rotate(string original, int count)
@@ -50,13 +54,15 @@ namespace Task2
 
             string result = string.Empty;
 
-            for(var i = 0; i < count; i++)
+            var newStr = string.Empty;
+
+            for (var i = 0; i < count; i++)
             {
                 lastChar = str[Len];
 
-                str.Remove(Len);
+                newStr = str.Remove(Len);
 
-                result = str.PadLeft(totalLen, lastChar);
+                result = newStr.PadLeft(totalLen, lastChar);
             }
 
             return result;
