@@ -6,30 +6,57 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            var result = ConvertTime("12:30 pm");
+            var result = ConvertTime("12:00 am");
             Console.WriteLine(result);
-
-            //DateTime dt = DateTime.Parse("12:30 pm");
-
-            //DateTime dt = DateTime.Parse("1:30 pm");
-
-            //DateTime dt = DateTime.Parse("8:30 am");
-
-            //Console.WriteLine(dt);
-
-            //string convertedDt = dt.ToString("H:MM");
-            //convertedDt = dt.ToString("HH:mm");
-            //convertedDt = dt.ToString("H:mm");
-
-            //Console.WriteLine(convertedDt);
         }
 
         public static string ConvertTime(string twelveHourFormat)
         {
-            DateTime dt = DateTime.Parse(twelveHourFormat);
-            string convertedDT = dt.ToString("H:mm");
+            string[] x = twelveHourFormat.Split(':');
+            string[] y = x[1].Split();
 
-            return convertedDT;
+            string t;
+
+            if (y[1] == "am")
+            {
+                t = amTime(Convert.ToInt32(x[0]));
+            }
+            else
+            {
+                t = pmTime(Convert.ToInt32(x[0]));
+            }
+
+            return $"{t}:{y[0]}";
+        }
+
+        public static string amTime(int baseTime)
+        {
+            var t = 12;
+
+            if(baseTime == t)
+            {
+                t -= baseTime;
+                return t.ToString();
+            }
+            else
+            {
+                return baseTime.ToString();
+            }
+        }
+
+        public static string pmTime(int baseTime)
+        {
+            var t = 12;
+
+            if (baseTime == t)
+            {
+                return baseTime.ToString();
+            }
+            else
+            {
+                t += baseTime;
+                return t.ToString();
+            }
         }
     }
 }
