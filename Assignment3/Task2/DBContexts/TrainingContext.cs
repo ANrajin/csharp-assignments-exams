@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Task2.Entities;
 
-namespace Task2.Dbcontext
+namespace Task2.DBContexts
 {
-    public class TrainingContext:DbContext
+    class TrainingContext:DbContext
     {
         private readonly string _connectionString;
+
         private readonly string _assemblyName;
 
         public TrainingContext()
@@ -26,14 +28,19 @@ namespace Task2.Dbcontext
                     _connectionString,
                     m => m.MigrationsAssembly(_assemblyName)
                 );
-
-                base.OnConfiguring(builder);
             }
+
+            base.OnConfiguring(builder);
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            base.OnModelCreating(builder);
+            builder.Entity<Enrollment>().HasKey(en => new { en.CourseId, en.StudentId });
+            builder.Entity<Enrollment>().HasOne(c => c.Course).WithMany(cs => cs.Enrollments).HasForeignKey(fk => fk.CourseId);
+            builder.Entity<Enrollment>().HasOne(s => s.Student).WithMany(std => std.Enrollments).HasForeignKey(fk => fk.StudentId);
         }
+
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }
