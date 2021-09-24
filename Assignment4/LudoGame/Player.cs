@@ -9,7 +9,7 @@ namespace LudoGame
     public class Player:IPlayer
     {
         public bool _win = false;
-        public const int _board = 5;
+        public const int _board = 200;
         public IDictionary<int, int> _piece;
         public string Name { get; set; }
         public string Color { get; set; }

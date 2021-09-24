@@ -51,21 +51,8 @@ namespace LudoGame
                         _exit = !_exit;
                         break;
                     }
-                    var number = _player[i].RollDice();
-                    Console.WriteLine($"{_player[i].Name} rolled number: {number}");
 
-                    StringBuilder getPiece = new StringBuilder("which piece to move? ");
-
-                    foreach(var p in _player[i]._piece)
-                    {
-                        getPiece.Append($"{p.Key}: {p.Value}, ");
-                    }
-
-                    Console.WriteLine(getPiece);
-
-                    int piece = int.Parse(Console.ReadLine());
-
-                    _player[i].MovePiece(piece, number);
+                    ChangeTurn(i);
 
                     Console.WriteLine();
                     Console.WriteLine();
@@ -77,6 +64,25 @@ namespace LudoGame
                     break;
                 }
             }
+        }
+
+        private void ChangeTurn(int i)
+        {
+            var number = _player[i].RollDice();
+            Console.WriteLine($"{_player[i].Name} rolled: {number}");
+
+            StringBuilder getPiece = new StringBuilder("Which piece to move? ");
+
+            foreach (var p in _player[i]._piece)
+            {
+                getPiece.Append($"{p.Key}: {p.Value}, ");
+            }
+
+            Console.WriteLine(getPiece);
+
+            int piece = int.Parse(Console.ReadLine());
+
+            _player[i].MovePiece(piece, number);
         }
     }
 }
