@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LudoGame
+namespace LudoGame.Players
 {
     public class Player:IPlayer
     {
         public bool _win = false;
         public const int _board = 200;
+
         public IDictionary<int, int> _piece;
         public string Name { get; set; }
-        public string Color { get; set; }
+
+        public ConsoleColor Color { get; protected set; }
 
         public Player()
         {
@@ -20,12 +22,9 @@ namespace LudoGame
             {
                 { 1, 0},
                 { 2, 0},
+                { 3, 0},
+                { 4, 0},
             };
-        }
-
-        public int RollDice()
-        {
-            return Dice.Roll();
         }
 
         public void MovePiece(int index, int dice)
@@ -37,6 +36,12 @@ namespace LudoGame
 
             if (_piece.Count == 0)
                 _win = true;
+
+        }
+
+        public int RollDice()
+        {
+            return Dice.Roll();
         }
     }
 }

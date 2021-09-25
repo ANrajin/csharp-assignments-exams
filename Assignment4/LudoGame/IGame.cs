@@ -8,6 +8,6 @@ namespace LudoGame
 {
     interface IGame
     {
-        public void AddPlayer(Player player);
+        public void Start(int n);
     }
 }
