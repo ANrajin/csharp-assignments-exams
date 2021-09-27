@@ -40,17 +40,9 @@ namespace LudoGame
                     {
                         _currentPlayer = Players[i].Name;
                         _exit = !_exit;
-                        break;
+                        Exit();
+                        return;
                     }
-
-                    Console.WriteLine();
-                }
-
-                if (_exit)
-                {
-                    Console.ResetColor();
-                    Console.WriteLine();
-                    Console.WriteLine($"{_currentPlayer} wins!");
                 }
             }
         }
@@ -81,6 +73,13 @@ namespace LudoGame
             Console.WriteLine(getPiece);
 
             return int.Parse(Console.ReadLine());
+        }
+
+        private void Exit()
+        {
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.WriteLine($"{_currentPlayer} wins!");
         }
     }
 }
