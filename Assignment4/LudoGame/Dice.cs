@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LudoGame
 {
-    public static class Dice
+    public class Dice
     {
-        public static int Roll()
+        public int Roll()
         {
             Random random = new Random(DateTime.Now.Millisecond);
 

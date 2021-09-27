@@ -9,7 +9,7 @@ namespace LudoGame.Players
     public class Player:IPlayer
     {
         public bool _win = false;
-        public const int _board = 200;
+        public const int _board = 250;
 
         public IDictionary<int, int> _piece;
         public string Name { get; set; }
@@ -23,7 +23,7 @@ namespace LudoGame.Players
                 { 1, 0},
                 { 2, 0},
                 { 3, 0},
-                { 4, 0},
+                { 4, 0}
             };
         }
 
@@ -41,7 +41,8 @@ namespace LudoGame.Players
 
         public int RollDice()
         {
-            return Dice.Roll();
+            Dice dice = new Dice();
+            return dice.Roll();
         }
     }
 }

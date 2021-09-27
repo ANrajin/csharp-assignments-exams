@@ -5,7 +5,7 @@ using LudoGame.Players;
 
 namespace LudoGame
 {
-    public class Game
+    public class Game:IGame
     {
         private bool _exit;
 
@@ -40,26 +40,27 @@ namespace LudoGame
                     {
                         _currentPlayer = Players[i].Name;
                         _exit = !_exit;
-                        goto Stop;
+                        break;
                     }
 
                     Console.WriteLine();
                 }
-            }
 
-        Stop:
-            Console.ResetColor();
-            Console.WriteLine();
-            Console.WriteLine($"{_currentPlayer} wins!");
+                if (_exit)
+                {
+                    Console.ResetColor();
+                    Console.WriteLine();
+                    Console.WriteLine($"{_currentPlayer} wins!");
+                }
+            }
         }
 
         private void ChangeTurn(int i)
         {
-        RollDice:
             var number = Players[i].RollDice();
 
             if (number == 6)
-                goto RollDice;
+                number = Players[i].RollDice();
 
             Console.WriteLine($"{Players[i].Name} rolled: {number}");
 
