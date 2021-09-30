@@ -4,7 +4,7 @@ namespace Task1
 {
     public class Program
     {
-        public delegate string Converter(DateTime time);
+        //public delegate string Converter(DateTime time);
 
         static void Main(string[] args)
         {
@@ -12,7 +12,7 @@ namespace Task1
             Console.WriteLine(result);
         }
 
-        public static string Formatter(Converter converter)
+        public static string Formatter(Func<DateTime,string> converter)
         {
             return converter(DateTime.Now);
         }
