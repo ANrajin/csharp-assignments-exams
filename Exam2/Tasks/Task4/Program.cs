@@ -27,10 +27,22 @@ namespace Task4
 
             //var result = Combine(customers, products);
 
-            //foreach(var item in result)
+            //foreach (var item in result)
             //{
             //    Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
-            //} 
+            //}
+
+            var result = from c in customers group products by c into cp select (Customer: cp.Key, Products: cp);
+
+            foreach(var r in result)
+            {
+                Console.WriteLine(r.Customer.name);
+
+                foreach(var p in r.Products)
+                {
+                    Console.WriteLine(p);
+                }
+            }
         }
 
         public static List<(string customerName, int customerAge, string productName, double price)> Combine(
