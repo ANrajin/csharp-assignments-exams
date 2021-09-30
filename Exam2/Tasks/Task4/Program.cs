@@ -25,31 +25,35 @@ namespace Task4
             products.Add(new("pendrive", "masud", 2000));
             products.Add(new("pendrive", "tareq", 1000));
 
-            //var result = Combine(customers, products);
+            var result = Combine(customers, products);
 
-            //foreach (var item in result)
-            //{
-            //    Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
-            //}
-
-            var result = from c in customers join p in products on c.name equals p.customerName group p by c into cp select (Customer: cp.Key, Products: cp);
-
-            foreach(var r in result)
+            foreach (var item in result)
             {
-                Console.WriteLine(r.Customer.name);
-
-                foreach(var p in r.Products)
-                {
-                    Console.WriteLine(p.name, p.price);
-                }
+                Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
             }
+
+            //var result = from c in customers join p in products on c.name equals p.customerName select (Customer: c, Products: p);
+
+            //foreach(var r in result)
+            //{
+            //    Console.WriteLine(r);
+            //}
         }
 
         public static List<(string customerName, int customerAge, string productName, double price)> Combine(
             List<(string name, int age)> customers, 
             List<(string name, string customerName, double price)> products)
         {
-            throw new NotImplementedException();
+            var result = from c in customers join p in products on c.name equals p.customerName select (Customer: c, Products: p);
+
+            List<(string customerName, int customerAge, string productName, double price)> list = new List<(string customerName, int customerAge, string productName, double price)>();
+
+            foreach (var r in result)
+            {
+                list.Add(new(r.Customer.name, r.Customer.age, r.Products.name, r.Products.price));
+            }
+
+            return list;
         }
     }
 }
