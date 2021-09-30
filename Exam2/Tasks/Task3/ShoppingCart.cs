@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    public class ShoppingCart
+    public class ShoppingCart<T>where T:IProduct, new()
     {
         private List<IProduct> _items;
 
