@@ -6,13 +6,9 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            var result = int.IsOdd(4);
+            int a = 9;
+            var result = a.IsOdd();
             Console.WriteLine(result);
-        }
-
-        public static bool IsOdd(int a)
-        {
-            return (a % 2 != 0);
         }
     }
 }

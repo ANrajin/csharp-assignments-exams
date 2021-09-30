@@ -25,12 +25,12 @@ namespace Task4
             products.Add(new("pendrive", "masud", 2000));
             products.Add(new("pendrive", "tareq", 1000));
 
-            var result = Combine(customers, products);
+            //var result = Combine(customers, products);
 
-            foreach(var item in result)
-            {
-                Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
-            }
+            //foreach(var item in result)
+            //{
+            //    Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
+            //} 
         }
 
         public static List<(string customerName, int customerAge, string productName, double price)> Combine(
