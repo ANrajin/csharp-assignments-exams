@@ -32,7 +32,7 @@ namespace Task4
             //    Console.WriteLine($"Customer Name: {item.customerName}, Product Name: {item.productName}, Price: {item.price}");
             //}
 
-            var result = from c in customers group products by c into cp select (Customer: cp.Key, Products: cp);
+            var result = from c in customers join p in products on c.name equals p.customerName group p by c into cp select (Customer: cp.Key, Products: cp);
 
             foreach(var r in result)
             {
@@ -40,7 +40,7 @@ namespace Task4
 
                 foreach(var p in r.Products)
                 {
-                    Console.WriteLine(p);
+                    Console.WriteLine(p.name, p.price);
                 }
             }
         }
