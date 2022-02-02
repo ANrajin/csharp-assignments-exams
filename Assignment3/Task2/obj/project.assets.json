@@ -5721,11 +5721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment3\\Task2\\Task2.csproj",
+      "projectUniqueName": "E:\\1.ClassRoom\\1.Assignment\\csharp-assignments-exams\\Assignment3\\Task2\\Task2.csproj",
       "projectName": "Task2",
-      "projectPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment3\\Task2\\Task2.csproj",
+      "projectPath": "E:\\1.ClassRoom\\1.Assignment\\csharp-assignments-exams\\Assignment3\\Task2\\Task2.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\1.Class-Works\\devskill-csharp-b8\\Assignment3\\Task2\\obj\\",
+      "outputPath": "E:\\1.ClassRoom\\1.Assignment\\csharp-assignments-exams\\Assignment3\\Task2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5783,7 +5783,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
